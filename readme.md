@@ -9,7 +9,7 @@ This is the repo for the paper **IV-Bench: Towards Image-Grounded Video Understa
 <img src=./imgs/overview.png width=90% />
 </div>
 
-## Representative examples from IV-Bench. 
+## Representative examples from IV-Bench
 Each IV-Bench sample consists of a video paired with an image-text query. The correct answer is marked in green, with relevant video frames also highlighted in green.
 
 <div align="center">
