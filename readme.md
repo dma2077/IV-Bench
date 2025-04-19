@@ -1,22 +1,37 @@
-# IV-Bench
+# IV-Bench: A Benchmark for Image-Grounded Video Perception and Reasoning in Multimodal LLMs
 
 [**📖 Arxiv Paper**]() | [**🤗 Paper**]() | [**🤗 IV-Bench Dataset**]()
 
-This is the repo for the paper **IV-Bench: Towards Image-Grounded Video Understanding Evaluation**. In this project, we propose **IV-Bench**, the first comprehensive benchmark for evaluating **Image-Grounded Video Understanding**. IV-Bench comprises **967 videos** paired with **2,585 meticulously annotated image-text queries**, where the images, collected from external sources rather than extracted from the videos themselves, provide the essential context required to accurately answer the queries. The dataset spans **5 major categories** and covers **13 distinct tasks** (7 perception and 6 reasoning tasks), ensuring substantial diversity across various scenarios and task types. We evaluate **24 state-of-the-art MLLMs**, including the latest closed-source models (e.g., Gemini-2-Flash and Gemini-2-Pro) and open-source models (e.g., InternVL2.5 and Qwen2.5-VL series). Our analysis identifies key factors affecting performance, including inference patterns, frame numbers, and resolution. We also develop a synthetic data generation approach leveraging existing video QA datasets, though improvements remain limited, highlighting the quality and inherent difficulty of IV-Bench. We hope IV-Bench will effectively promote the development of MLLMs in **Image-Grounded Video Understanding**.
+
+IV‑Bench is a benchmark for evaluating the capabilities of multimodal large‑language models in image‑grounded video perception and reasoning. It pairs 967 videos with 2,585 externally sourced image–text queries, each requiring both video and image context for an accurate answer.
 
 
 <div align="center">
 <img src=./imgs/overview.png width=90% />
 </div>
 
-## Representative examples from IV-Bench
+
+## 👀 Instruction to IV-Bench
+
+**IV-Bench** is the first comprehensive benchmark for evaluating **Image-Grounded Video perception and reasoning**. IV-Bench comprises **967 videos** paired with **2,585 meticulously annotated image-text queries**, where the images, collected from external sources rather than extracted from the videos themselves, provide the essential context required to accurately answer the queries. The dataset spans **5 major categories** and covers **13 distinct tasks** (7 perception and 6 reasoning tasks), ensuring substantial diversity across various scenarios and task types.
+
+### Features
+
+- **Image–Text Queries** Multiple queries per video, each pairing an externally sourced image with a question to provide essential contextual cues.
+
+- **Five Diverse Categories** Videos (≥ 5 min) span Knowledge, Film & TV, Sports, Artistic Performances, and Life Records for broad coverage.
+
+- **Thirteen Evaluation Tasks** A mix of perception and reasoning tasks designed to rigorously test multimodal understanding.
+
+
+## 🎞️ Representative examples from IV-Bench
 Each IV-Bench sample consists of a video paired with an image-text query. The correct answer is marked in green, with relevant video frames also highlighted in green.
 
 <div align="center">
 <img src=./imgs/examples.png width=90% />
 </div>
 
-## Comparion with other video benchmarks
+## 🆚 Comparion with other video benchmarks
 Different from other video benchmarks that contain only text-only queries or image-unnecessary queries, IV-Bench is the first manually annotated benchmark explicitly designed to evaluate image-grounded video understanding, employing two rigorous rounds of quality checks to ensure images are essential for correctly answering every query.
 
 <div align="center">
@@ -24,7 +39,7 @@ Different from other video benchmarks that contain only text-only queries or ima
 </div>
 
 
-## How to use IV-Bench
+## 🛠️ How to use IV-Bench
 
 ### 1. Installation
 
@@ -57,12 +72,23 @@ python inference_ivbench.py \
 
 One example for evaluating InternVL-2.5 can be seen in [internvl2_5.sh](scripts/internvl2_5.sh)
 
-## Overall Leaderboard
+## 📊 Results
+
+### Main Results
 
 <div align="center">
 <img src=./imgs/experiment.png width=90% />
 </div>
 
+### Ablation Study
+
+<div align="center">
+<img src=./imgs/ablation_study1.png width=90% />
+</div>
+
+<div align="center">
+<img src=./imgs/ablation_study2.png width=90% />
+</div>
 
 ## Reference
 
