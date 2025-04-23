@@ -91,7 +91,14 @@ One example for evaluating InternVL-2.5 can be seen in [internvl2_5.sh](scripts/
 </div>
 
 ## Reference
-
 ```bib
-
+@misc{ma2025ivbenchbenchmarkimagegroundedvideo,
+      title={IV-Bench: A Benchmark for Image-Grounded Video Perception and Reasoning in Multimodal LLMs}, 
+      author={David Ma and Yuanxing Zhang and Jincheng Ren and Jarvis Guo and Yifan Yao and Zhenlin Wei and Zhenzhu Yang and Zhongyuan Peng and Boyu Feng and Jun Ma and Xiao Gu and Zhoufutu Wen and King Zhu and Yancheng He and Meng Cao and Shiwen Ni and Jiaheng Liu and Wenhao Huang and Ge Zhang and Xiaojie Jin},
+      year={2025},
+      eprint={2504.15415},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.15415}, 
+}
 ```
