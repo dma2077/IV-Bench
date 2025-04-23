@@ -1,6 +1,6 @@
 # IV-Bench: A Benchmark for Image-Grounded Video Perception and Reasoning in Multimodal LLMs
 
-[**📖 Arxiv Paper**]() | [**🤗 Paper**]() | [**🤗 IV-Bench Dataset**]()
+[**📖 Arxiv Paper**](https://arxiv.org/pdf/2504.15415) | [**🤗 Paper**](https://huggingface.co/papers/2504.15415) | [**🤗 IV-Bench Dataset**](https://huggingface.co/datasets/m-a-p/IV-Bench)
 
 
 IV‑Bench is a benchmark for evaluating the capabilities of multimodal large‑language models in image‑grounded video perception and reasoning. It pairs 967 videos with 2,585 externally sourced image–text queries, each requiring both video and image context for an accurate answer.
@@ -35,7 +35,7 @@ Each IV-Bench sample consists of a video paired with an image-text query. The co
 Different from other video benchmarks that contain only text-only queries or image-unnecessary queries, IV-Bench is the first manually annotated benchmark explicitly designed to evaluate image-grounded video understanding, employing two rigorous rounds of quality checks to ensure images are essential for correctly answering every query.
 
 <div align="center">
-<img src=./imgs/comparion.png width=90% />
+<img src=./imgs/comparison.png width=90% />
 </div>
 
 
