@@ -3,17 +3,17 @@
 [**🤗 IV-Bench Dataset**](https://huggingface.co/datasets/IV-Bench/IV-Bench)
 
 
-IV‑Bench is a benchmark for evaluating the capabilities of multimodal large‑language models in image‑grounded video perception and reasoning. It pairs 967 videos with 2,585 externally sourced image–text queries, each requiring both video and image context for an accurate answer.
+IV‑Bench is a benchmark for evaluating the capabilities of multimodal large‑language models in image‑grounded video perception and reasoning. It pairs 966 videos with 2,560 externally sourced image–text queries, each requiring both video and image context for an accurate answer.
 
 
 <div align="center">
-<img src=./imgs/overview.png width=90% />
+<img src=imgs/overview.png width=90% />
 </div>
 
 
 ## 👀 Instruction to IV-Bench
 
-**IV-Bench** is the first comprehensive benchmark for evaluating **Image-Grounded Video perception and reasoning**. IV-Bench comprises **967 videos** paired with **2,585 meticulously annotated image-text queries**, where the images, collected from external sources rather than extracted from the videos themselves, provide the essential context required to accurately answer the queries. The dataset spans **5 major categories** and covers **13 distinct tasks** (7 perception and 6 reasoning tasks), ensuring substantial diversity across various scenarios and task types.
+**IV-Bench** is the first comprehensive benchmark for evaluating **Image-Grounded Video perception and reasoning**. IV-Bench comprises **966 videos** paired with **2,560 meticulously annotated image-text queries**, where the images, collected from external sources rather than extracted from the videos themselves, provide the essential context required to accurately answer the queries. The dataset spans **5 major categories** and covers **13 distinct tasks** (7 perception and 6 reasoning tasks), ensuring substantial diversity across various scenarios and task types.
 
 ### Features
 
@@ -28,14 +28,14 @@ IV‑Bench is a benchmark for evaluating the capabilities of multimodal large‑
 Each IV-Bench sample consists of a video paired with an image-text query. The correct answer is marked in green, with relevant video frames also highlighted in green.
 
 <div align="center">
-<img src=./imgs/examples.png width=90% />
+<img src=imgs/examples.png width=90% />
 </div>
 
 ## 🆚 Comparion with other video benchmarks
 Different from other video benchmarks that contain only text-only queries or image-unnecessary queries, IV-Bench is the first manually annotated benchmark explicitly designed to evaluate image-grounded video understanding, employing two rigorous rounds of quality checks to ensure images are essential for correctly answering every query.
 
 <div align="center">
-<img src=./imgs/comparison.png width=90% />
+<img src=imgs/comparison.png width=90% />
 </div>
 
 
@@ -77,16 +77,16 @@ One example for evaluating InternVL-2.5 can be seen in [internvl2_5.sh](scripts/
 ### Main Results
 
 <div align="center">
-<img src=./imgs/experiment.png width=90% />
+<img src=imgs/experiment.png width=90% />
 </div>
 
 ### Ablation Study
 
 <div align="center">
-<img src=./imgs/ablation_study1.png width=90% />
+<img src=imgs/ablation_study1.png width=90% />
 </div>
 
 <div align="center">
-<img src=./imgs/ablation_study2.png width=90% />
+<img src=imgs/ablation_study2.png width=90% />
 </div>
 
