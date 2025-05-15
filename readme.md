@@ -45,15 +45,9 @@ Different from other video benchmarks that contain only text-only queries or ima
 
 We have provided the complete environment configuration required for evaluating the models in the paper. For detailed installation instructions and dependency settings, please refer to the [installation.md](installation.md) file.
 
-### 2. Download dataset
+### 2. Download dataset from huggingface
 
-#### 2.1 Download testdata from huggingface
-
-Download all data without videos from here()
-
-#### 2.2 Video download
-
-Download videos using the script we provide [download_video.sh](download_video.sh)
+huggingface-cli download --repo-type dataset --resume-download IV-Bench/IV-Bench --local-dir your_local_path
 
 ### 3. Model Evaluation
 
