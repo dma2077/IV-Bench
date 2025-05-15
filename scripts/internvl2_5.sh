@@ -19,7 +19,7 @@ fi
 export CUDA_VISIBLE_DEVICES="$GPU_ID"
 export PYTHONPATH=IV-Bench
 
-python inference_ivbench.py \
+python inference.py \
     --model_name="$MODEL_NAME" \
     --question_file="$QUESTION_FILE" \
     --model_path="$MODEL_PATH" \
