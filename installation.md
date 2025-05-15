@@ -69,15 +69,6 @@ pip install flash_attn==2.7.4.post1 \
             opencv-python==4.11.0.86
 ```
 
-## Minicpm-o
-
-```bash
-
-conda create -n minicpmo python=3.10 -y && conda activate minicpmo
-pip install -r minicpmo_requirements.txt
-
-```
-
 ## NVILA
 
 ```bash
